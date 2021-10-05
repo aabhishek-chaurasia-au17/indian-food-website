@@ -1,0 +1,427 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap");
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.header {
+  width: 100%;
+  background: transparent;
+  position: fixed;
+  top: 0;
+  z-index: 5;
+}
+
+.navbar-default {
+  background: none;
+}
+
+.top-nav-bar {
+  color: #FFF;
+}
+.top-nav-bar a {
+  color: #FFF;
+  font-size: x-large;
+}
+.top-nav-bar a:hover {
+  color: #ad6c12;
+}
+
+.white-box {
+  padding: 105px 0;
+  background: rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: saturate(180%) blur(10px);
+          backdrop-filter: saturate(180%) blur(10px);
+  margin-bottom: 450px;
+}
+.white-box h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #2c3a42;
+}
+.white-box h2 {
+  font-size: 55px;
+  font-weight: bold;
+  color: #ad6c12;
+}
+.white-box a {
+  background-color: #FFF;
+  font-size: 35px;
+  text-decoration: none;
+  color: #2a3b40;
+  padding: 0 10px;
+}
+
+.carousel-inner {
+  height: 100vh;
+}
+
+.flavours-bg {
+  background-color: #2a3b40;
+}
+
+.tastes-col {
+  background-color: #FFF;
+}
+.tastes-col i {
+  font-size: 20px;
+  color: #2a3b40;
+}
+.tastes-col h6 {
+  font-weight: bold;
+  padding-top: 15px;
+}
+
+.indian-plate {
+  background-image: url(../images/bg2.jpg);
+  background-position: center center;
+  background-size: cover;
+  padding: 50px 0;
+}
+.indian-plate .row:first-child {
+  padding-left: 7.5rem;
+  padding-right: 7.5rem;
+}
+
+.trasparent-bg {
+  background: rgba(255, 255, 255, 0.6);
+  -webkit-backdrop-filter: saturate(180%) blur(10px);
+          backdrop-filter: saturate(180%) blur(10px);
+}
+.trasparent-bg figure {
+  margin: 0 0 0em;
+}
+.trasparent-bg h1 {
+  font-size: 40px;
+  color: #2a3b40;
+  line-height: 40px;
+  font-weight: bold;
+}
+.trasparent-bg h2 {
+  font-size: 40px;
+  color: #ad6c12;
+  line-height: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.trasparent-bg h3 {
+  font-size: medium;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.trasparent-bg p {
+  font-weight: normal;
+  font-size: 13px;
+  padding: 0 50px;
+}
+
+.col-traditional {
+  background-image: url(../images/bg4.jpg);
+  background-position: center center;
+  background-size: cover;
+  padding: 50px 0;
+  padding: 40px 0 10px 0;
+}
+.col-traditional h2 {
+  font-weight: bold;
+}
+.col-traditional p {
+  font-size: 14px;
+  padding: 20px 20% 0;
+  text-align: center;
+}
+.col-traditional i {
+  color: #2a3b40;
+}
+.col-traditional a {
+  text-decoration: none;
+  color: #2a3b40;
+  padding: 0 20px;
+  font-weight: bolder;
+}
+
+.col-discover {
+  background-image: url(../images/bg5.jpg);
+  background-position: center center;
+  background-size: cover;
+  padding: 50px 0;
+  padding: 180px 0 0 0;
+}
+
+.bg-menu {
+  background: rgba(255, 255, 255, 0.6);
+  -webkit-backdrop-filter: saturate(180%) blur(10px);
+          backdrop-filter: saturate(180%) blur(10px);
+}
+.bg-menu h1 {
+  font-size: 40px;
+  color: #2a3b40;
+  line-height: 40px;
+  font-weight: bold;
+}
+.bg-menu h2 {
+  font-size: 40px;
+  color: #ad6c12;
+  line-height: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.bg-menu h3 {
+  font-size: medium;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.bg-menu p {
+  font-weight: normal;
+  font-size: 13px;
+  padding: 0 80px 0 0;
+}
+.bg-menu p strong {
+  font-size: 15px;
+}
+
+.food-icons {
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFF;
+  border-radius: 50%;
+}
+
+.only-bg {
+  background-image: url(../images/bg6.jpg);
+  background-position: center center;
+  background-size: cover;
+  padding: 50px 0;
+  height: 100vh;
+}
+
+.col-book {
+  background-color: #2a3b40;
+  color: #FFF;
+}
+.col-book h1 {
+  font-size: xx-large;
+  text-align: center;
+}
+.col-book .people-select {
+  background-color: #2a3b40;
+  border: #FFF solid 1px;
+  color: #FFF;
+}
+.col-book [type=text] {
+  background-color: #2a3b40;
+  border: #FFF solid 1px;
+  color: #FFF;
+}
+.col-book [type=email] {
+  background-color: #2a3b40;
+  border: #FFF solid 1px;
+  color: #FFF;
+}
+.col-book [type=date] {
+  background-color: #2a3b40;
+  border: #FFF solid 1px;
+  color: #FFF;
+}
+.col-book [type=time] {
+  background-color: #2a3b40;
+  border: #FFF solid 1px;
+  color: #FFF;
+}
+.col-book ::-moz-placeholder {
+  color: #FFF;
+}
+.col-book :-ms-input-placeholder {
+  color: #FFF;
+}
+.col-book ::placeholder {
+  color: #FFF;
+}
+.col-book .sub-btn {
+  background-color: #2a3b40;
+  border: #FFF solid 1px;
+  color: #FFF;
+  padding: 5px 0;
+}
+.col-book .sub-btn:hover {
+  background-color: #FFF;
+  color: #2a3b40;
+}
+
+.only-bg-2 {
+  background-image: url(../images/bg7.jpg);
+  background-position: center center;
+  background-size: cover;
+  padding: 50px 0;
+  height: 100vh;
+}
+
+.discover-bg {
+  background-color: #FFF;
+  padding: 50px 0;
+}
+.discover-bg h1 {
+  font-size: 40px;
+  color: #2a3b40;
+  line-height: 40px;
+  font-weight: bold;
+}
+.discover-bg h2 {
+  font-size: 40px;
+  color: #ad6c12;
+  line-height: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.discover-bg figure {
+  margin-bottom: 0;
+}
+.discover-bg figure img {
+  width: 100%;
+}
+.discover-bg h6 {
+  font-size: small;
+  margin-top: 0px;
+}
+.discover-bg h5 {
+  margin-top: 20px;
+  font-size: small;
+  font-weight: bold;
+  color: #2a3b40;
+}
+.discover-bg p {
+  font-size: small;
+}
+.discover-bg a {
+  font-size: small;
+  color: #2a3b40;
+  border-bottom: #ff992b solid 5px;
+  text-decoration: none;
+}
+.discover-bg a:hover {
+  color: #ff992b;
+}
+
+.user-reviwe {
+  background-color: #2a3b40;
+}
+.user-reviwe i {
+  font-size: xx-large;
+}
+.user-reviwe p {
+  padding: 30px 280px 0px 280px;
+}
+.user-reviwe h4 {
+  padding: 0px 0 30px 0;
+}
+.user-reviwe .social-icon i {
+  font-size: larger;
+  height: 40px;
+  width: 40px;
+  background-color: #FFF;
+  color: #2a3b40;
+  border-radius: 50%;
+  line-height: 43px;
+}
+.user-reviwe .social-icon i:hover {
+  background-color: #2a3b40;
+  color: #FFF;
+}
+
+.footer h2 {
+  font-size: xx-large;
+  text-transform: capitalize;
+}
+.footer ul {
+  list-style: none;
+  padding-left: 0px;
+}
+.footer ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1024px) {
+  .white-box {
+    padding: 100px 0;
+    margin-bottom: 170px;
+  }
+  .white-box h1 {
+    font-size: 50px;
+  }
+  .white-box h2 {
+    font-size: 40px;
+  }
+
+  .carousel-inner {
+    height: 80vh;
+  }
+
+  .indian-plate .row:first-child {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+
+  .user-reviwe p {
+    padding: 30px 50px 0px 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .white-box {
+    padding: 50px 0;
+    margin-bottom: 70px;
+  }
+  .white-box h1 {
+    font-size: xx-large;
+  }
+  .white-box h2 {
+    font-size: xx-large;
+  }
+
+  .carousel-inner {
+    height: 80vh;
+  }
+
+  .indian-plate .row:first-child {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+
+  .user-reviwe p {
+    padding: 30px 50px 0px 50px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .carousel-inner {
+    height: 63vh;
+  }
+
+  .flavours-bg {
+    text-align: center;
+  }
+
+  .tastes-col {
+    text-align: center;
+  }
+
+  .indian-plate .row:first-child {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+
+  .bg-menu p {
+    padding: 0 0 0 0;
+  }
+
+  .user-reviwe p {
+    padding: 30px 50px 0px 50px;
+  }
+}/*# sourceMappingURL=style.css.map */

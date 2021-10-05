@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap');
+
+
+@import "_var.scss";
+@import "_mixin.scss";
+
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.header{
+    width: 100%;
+    background: transparent;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+}
+
+.navbar-default {
+  background: none;
+}
+
+.top-nav-bar{
+    color: $white-color;
+
+    a{
+        color: $white-color;
+        font-size: x-large;
+
+        &:hover{
+            color: $yello-color;
+        }
+    }
+}
+
+.white-box{
+    padding: 105px 0;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: saturate(180%) blur(10px);
+    margin-bottom: 450px;
+
+    @include heading;
+
+    a{
+        background-color: $white-color;
+        font-size: 35px;
+        text-decoration: none;
+        color: $darkgray;
+        padding: 0 10px;
+    }
+}
+
+.carousel-inner{
+    height: 100vh;
+}
+
+.flavours-bg{
+    background-color: $darkgray;
+}
+
+.tastes-col{
+    background-color: $white-color;
+
+    i{
+        font-size: 20px;
+        color: $darkgray;
+    }
+
+    h6{
+        font-weight: bold;
+        padding-top: 15px;
+    }
+}
+
+.indian-plate{
+    @include img-bg(url(../images/bg2.jpg));
+
+    .row:first-child{
+        padding-left: 7.5rem;
+        padding-right: 7.5rem;
+    }
+}
+
+.trasparent-bg{
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: saturate(180%) blur(10px);
+
+    figure{
+        margin: 0 0 0em;
+    }
+    
+    @include heading2;
+
+    h3{
+        font-size: medium;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    p{  
+        font-weight: normal;
+        font-size: 13px;
+        padding: 0 50px;
+    }
+}
+
+.col-traditional{
+    
+    @include img-bg(url(../images/bg4.jpg));
+    padding: 40px 0 10px 0;
+
+    h2{
+        font-weight: bold;
+    }
+    
+    p{
+        font-size: 14px;
+        padding: 20px 20% 0;
+        text-align: center;
+    }
+
+    i{
+        color: $darkgray;
+    }
+
+    a{
+        text-decoration: none;
+        color: $darkgray;
+        padding: 0 20px;
+        font-weight: bolder;
+    }
+}
+
+.col-discover{
+    @include img-bg(url(../images/bg5.jpg));
+    padding: 180px 0 0 0;
+
+}
+
+.bg-menu{
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: saturate(180%) blur(10px);
+
+    @include heading2;
+
+    h3{
+        font-size: medium;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    p{  
+        font-weight: normal;
+        font-size: 13px;
+        padding: 0 80px 0 0;
+
+        strong{ font-size: 15px;}
+    }
+
+}
+
+.food-icons{
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $white-color;
+    border-radius: 50%;
+}
+
+.only-bg{
+    @include img-bg(url(../images/bg6.jpg));
+    height: 100vh;
+}
+
+.col-book{
+    background-color: $darkgray;
+    color: $white-color;
+
+    h1{
+        font-size: xx-large;
+        text-align: center;
+    }
+
+    .people-select{
+        background-color: $darkgray;
+        border: $white-color solid 1px;
+        color: $white-color;
+    }
+
+    [type="text"]{
+        background-color: $darkgray;
+        border: $white-color solid 1px;
+        color: $white-color;
+    }
+
+    [type="email"]{
+        background-color: $darkgray;
+        border: $white-color solid 1px;
+        color: $white-color;
+    }
+
+    [type="date"]{
+        background-color: $darkgray;
+        border: $white-color solid 1px;
+        color: $white-color;
+    }
+
+    [type="time"]{
+        background-color: $darkgray;
+        border: $white-color solid 1px;
+        color: $white-color;
+    }
+
+    ::placeholder {
+        color: $white-color;
+    }
+
+    .sub-btn{
+        background-color: $darkgray;
+        border: $white-color solid 1px;
+        color: $white-color;
+        padding: 5px 0;
+
+        &:hover{
+            background-color: $white-color;
+            color: $darkgray;
+        }
+    }
+
+}
+
+.only-bg-2{
+    @include img-bg(url(../images/bg7.jpg));
+    height: 100vh;
+}
+
+.discover-bg{
+    background-color: $white-color;
+    padding: 50px 0;
+    
+    @include heading2;
+
+    figure{
+        margin-bottom: 0;
+    }
+
+    figure img{
+        width: 100%;
+    }
+
+    h6{
+        font-size: small;
+        margin-top: 0px;
+    }
+
+    h5{
+        margin-top: 20px;
+        font-size: small;
+        font-weight: bold;
+        color: $darkgray;
+    }
+    
+    p{
+        font-size: small;
+    }
+
+    a{
+        font-size: small;
+        color: $darkgray;
+        border-bottom: #ff992b solid 5px;
+        text-decoration: none;
+
+        &:hover{
+        color: #ff992b;
+        }
+    }
+    
+    
+}
+
+.user-reviwe{
+    background-color: $darkgray;
+
+    i{
+        font-size: xx-large;
+    }
+
+    p{
+        padding: 30px 280px 0px 280px;
+    }
+    h4{
+        padding: 0px 0 30px 0;
+    }
+
+    .social-icon i{
+        font-size: larger;
+        height: 40px;
+        width: 40px;
+        background-color: $white-color;
+        color: $darkgray;
+        border-radius: 50%;
+        line-height: 43px;
+
+        &:hover{
+            background-color: $darkgray;
+            color: $white-color;
+        }
+    }
+}
+
+.footer{
+    h2{
+        font-size: xx-large;
+        text-transform: capitalize;
+    }
+
+    ul{
+       list-style: none;
+       padding-left: 0px;
+       
+        li a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .white-box{
+    padding: 100px 0;
+    margin-bottom: 170px;
+
+    h1{
+        font-size: 50px;
+    }
+
+    h2{
+        font-size: 40px;
+    }
+
+    }
+    
+    .carousel-inner {
+        height: 80vh;
+    }
+
+    .indian-plate .row:first-child {
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+    .user-reviwe p {
+        padding: 30px 50px 0px 50px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    
+    .white-box{
+    padding: 50px 0;
+    margin-bottom: 70px;
+
+    h1{
+        font-size: xx-large;
+    }
+
+    h2{
+        font-size: xx-large;
+    }
+
+    }
+    
+    .carousel-inner {
+        height: 80vh;
+    }
+
+    .indian-plate .row:first-child {
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+    .user-reviwe p {
+        padding: 30px 50px 0px 50px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .carousel-inner {
+        height: 63vh;
+    }
+
+    .flavours-bg {
+        text-align: center;
+    }
+
+    .tastes-col {
+    text-align: center;
+    }
+
+    .indian-plate .row:first-child {
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+    .bg-menu p {
+        padding: 0 0 0 0;
+    }
+
+    .user-reviwe p {
+        padding: 30px 50px 0px 50px;
+    }       
+}
